@@ -1,0 +1,11 @@
+# Commands
+
+$ kubectl create -f replicaset-definition.yml
+
+$ kubectl get replicaset
+
+$ kubectl scale --replicas=6 -f replicaset-definition.yml
+
+$ kubectl delete replicaset sample-replicaset
+
+$ kubectl replace -f replicaset-definition.yml
