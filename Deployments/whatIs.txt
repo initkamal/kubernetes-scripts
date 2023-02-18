@@ -1,0 +1,5 @@
+- An object for logically mamaging Pods and ReplicaSets
+- Desired state is enforced by the controller 
+- Logic for updating, rolling and scaling deployments 
+- Proportional scaling and error checking for rollouts
+- The preffred objects for deployments compute workloads 
