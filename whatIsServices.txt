@@ -5,3 +5,14 @@
   - Cluster IP [ default ]
   - NodePort
   - LoadBalancer 
+
+
+- Selectors 
+    - we configure services using selectors
+  
+  - Lables are key-value pairs in object metadata
+    - app=nginx
+    
+  - Pods that match selectors become part of the Service
+  
+  
