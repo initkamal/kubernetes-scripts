@@ -1,0 +1,7 @@
+- A Service exposes a set of Pods to the network
+- A Service assigns a fixed IP to your Pod replicas
+
+> Three main types of service:
+  - Cluster IP [ default ]
+  - NodePort
+  - LoadBalancer 
