@@ -1,0 +1,9 @@
+- A Pod is logical applicatoin-centric unit of containers
+- A ReplicaSet is a Kubernetes object that provides:
+  - A stable set of Pod replicas
+  - A specified number of Pods
+  - Logic to ensure availability 
+
+Note: not recommended to create ReplicaSets on their own
+  
+ 
